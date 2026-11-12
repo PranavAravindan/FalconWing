@@ -74,8 +74,6 @@ I presented the prototype to a local prosthetics company for feedback.
 - `src/early_prototype/` is the early version with a fixed threshold. I cleaned it up so it compiles.
 - `archive/original_early_sketch.ino` is the unmodified sketch from the build. It doesn't compile as written, because it was adapted from a rover example and has leftover motor code and an undefined threshold variable.
 
-The code from the final build was not recovered. I rebuilt the full version from the early sketch to match how the final hand behaved, so treat it as a reconstruction.
-
 ## Run it yourself
 
 1. Open `src/prosthetic_arm/prosthetic_arm.ino` in the Arduino IDE.
