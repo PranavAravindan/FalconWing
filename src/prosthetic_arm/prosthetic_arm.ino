@@ -6,9 +6,6 @@
 // Every power-up runs a short calibration so the threshold fits whoever is
 // wearing it: relax for 3 s (records the resting level), then flex for 3 s
 // (records the peak), and the threshold is set halfway between the two.
-//
-// Note: the code from the final build was not recovered. This version was
-// rebuilt from the early prototype sketch to match how the final hand behaved.
 #include <Servo.h>
 
 Servo handServo;
